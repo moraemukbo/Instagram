@@ -1,4 +1,4 @@
-package org.techtown.instagram;
+package Utils;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

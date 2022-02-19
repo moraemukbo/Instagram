@@ -1,16 +1,17 @@
-package org.techtown.instagram;
+package home;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import org.techtown.instagram.MainFragment;
+import org.techtown.instagram.R;
+import Utils.SectionsPagerAdapter;
 
 import Utils.BottomNavigationViewHelper;
 
