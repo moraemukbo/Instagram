@@ -1,16 +1,14 @@
 package Utils;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.MenuItem;
-import android.widget.Switch;
 
 import androidx.annotation.NonNull;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import org.techtown.instagram.MainActivity;
+import home.MainActivity;
 import org.techtown.instagram.ProfileActivity;
 import org.techtown.instagram.R;
 import org.techtown.instagram.ReelsActivity;

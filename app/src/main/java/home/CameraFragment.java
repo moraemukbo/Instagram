@@ -1,4 +1,4 @@
-package org.techtown.instagram;
+package home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import org.techtown.instagram.R;
 
 public class CameraFragment extends Fragment {
     @Nullable
