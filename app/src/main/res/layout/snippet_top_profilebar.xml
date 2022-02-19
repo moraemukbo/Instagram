@@ -1,0 +1,40 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/profileToolBar"
+            android:background="@color/white">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="corin._.e"
+                   android:textSize="25sp"
+                   android:textColor="@color/black"
+                   android:layout_marginStart="15dp"
+                   android:id="@+id/profile_name">
+
+               </TextView>
+
+           </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    </merge>
