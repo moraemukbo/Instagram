@@ -44,12 +44,10 @@ public class ProfileActivity extends AppCompatActivity {
         });
     }
 
-    //BOTTOM NAVIGATION VIEW 설정하기
+    //BOTTOM NAVIGATION VIEW 설정
     private void setupBottomNavigationView(){
         Log.d(TAG, "BottomNavigationView 세팅");
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomnavviewbar);
         BottomNavigationViewHelper.enableNavigation(mContext,bottomNavigationView);
     }
-
-
 }
