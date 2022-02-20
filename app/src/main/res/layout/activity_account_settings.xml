@@ -17,15 +17,33 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/relLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/relLayout2">
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_shadow_start_color"
+                android:backgroundTint="@color/cardview_shadow_start_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relLayout3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/relLayout3"
             android:layout_below="@id/relLayout2"
+            android:layout_marginTop="50dp"
             android:layout_marginBottom="50dp">
+            <include layout="@layout/layout_center_account_setting">
+
+            </include>
+
 
         </RelativeLayout>
 
-
+        <include layout="@layout/layout_bottom_navigation_view"/>
 
 
 
