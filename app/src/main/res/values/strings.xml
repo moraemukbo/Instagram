@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Instagram</string>
-    <string name="edit_profile">Edit Profile</string>
-    <string name="Sign_out">Sign Out</string>
+    <string name="Follow_and_invite_Friends">Follow and invite Friends</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Privacy">Privacy</string>
+    <string name="Security">Security</string>
+    <string name="Ads">Ads</string>
+    <string name="Account">Account</string>
+    <string name="Help">Help</string>
+    <string name="About">About</string>
+
 </resources>

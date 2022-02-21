@@ -1,4 +1,4 @@
-package org.techtown.instagram;
+package profile;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,12 +6,13 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import org.techtown.instagram.R;
 
 import Utils.BottomNavigationViewHelper;
 
@@ -38,7 +39,7 @@ public class ProfileActivity extends AppCompatActivity {
         profileMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(mContext,AccountSettingActivity.class);
+                Intent intent = new Intent(mContext, AccountSettingActivity.class);
                 startActivity(intent);
             }
         });

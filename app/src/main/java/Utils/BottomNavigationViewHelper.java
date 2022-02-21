@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import home.MainActivity;
-import org.techtown.instagram.ProfileActivity;
+import profile.ProfileActivity;
 import org.techtown.instagram.R;
 import org.techtown.instagram.ReelsActivity;
 import org.techtown.instagram.SearchActivity;
